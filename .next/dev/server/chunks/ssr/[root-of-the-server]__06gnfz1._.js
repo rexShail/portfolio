@@ -71,7 +71,7 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 ;
 ;
-const siteUrl = "https://rexShailJs.com";
+const siteUrl = "https://rexShail.com";
 const metadata = {
     metadataBase: new URL(siteUrl),
     title: {
@@ -81,7 +81,7 @@ const metadata = {
     description: "Portfolio of Shailender Singh, a Senior Full Stack Engineer with 12+ years of experience building secure, scalable FinTech platforms, AI risk engines, and digital onboarding systems.",
     keywords: [
         "Shailender Singh",
-        "rexShailJs",
+        "rexShail",
         "Full Stack Engineer",
         "FinTech Developer",
         "AI Credit Risk Systems",

@@ -489,7 +489,7 @@ function Navbar({ page, setPage, theme, toggleTheme }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-display text-xl font-black tracking-tight bg-gradient-to-r from-accent-purple to-accent-pink bg-clip-text text-transparent",
-                                children: "rexShailJs"
+                                children: "rexShail"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
                                 lineNumber: 76,
@@ -721,8 +721,8 @@ const CONTACTS = [
     {
         icon: "📞",
         label: "Phone",
-        href: "tel:+91 956 074 6307",
-        val: "+91 956 074 6307"
+        href: "tel:++91 956 074 6307",
+        val: "+91 +91 956 074 6307"
     },
     {
         icon: "📍",

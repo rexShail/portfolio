@@ -1,10 +1,10 @@
 const SOCIAL_LINKS = [
-  { icon: "🔗", name: "LinkedIn", href: "https://www.linkedin.com/in/rexShailJs/" },
-  { icon: "💻", name: "GitHub", href: "https://github.com/rexShailJs" },
-  { icon: "✍️", name: "Medium", href: "https://medium.com/@rexShailJs" },
-  { icon: "👤", name: "Gravatar", href: "https://gravatar.com/rexShailJs" },
-  { icon: "🌲", name: "Linktree", href: "https://linktr.ee/rexShailJs" },
-  { icon: "🐦", name: "Twitter", href: "https://twitter.com/rexShailJs" },
+  { icon: "🔗", name: "LinkedIn", href: "https://www.linkedin.com/in/rexShail/" },
+  { icon: "💻", name: "GitHub", href: "https://github.com/rexShail" },
+  { icon: "✍️", name: "Medium", href: "https://medium.com/@rexShail" },
+  { icon: "👤", name: "Gravatar", href: "https://gravatar.com/rexShail" },
+  { icon: "🌲", name: "Linktree", href: "https://linktr.ee/rexShail" },
+  { icon: "🐦", name: "Twitter", href: "https://twitter.com/rexShail" },
   { icon: "📧", name: "Email", href: "mailto:rexShailJs@gmail.com" },
 ];
 

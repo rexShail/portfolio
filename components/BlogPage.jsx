@@ -130,7 +130,7 @@ export default function BlogPage({ setPage }) {
               ← Back to Portfolio
             </button>
             <div className="font-sans text-[11px] text-text-muted mt-2 border-t border-card-border/60 pt-3 space-y-1.5">
-              <p>📝 Medium: <span className="text-foreground/90 font-medium">@rexShailJs</span></p>
+              <p>📝 Medium: <span className="text-foreground/90 font-medium">@rexShail</span></p>
               <p>📧 Email: <span className="text-foreground/90 font-medium">rexShailJs@gmail.com</span></p>
             </div>
           </div>

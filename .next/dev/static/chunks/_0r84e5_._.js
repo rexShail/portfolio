@@ -308,7 +308,7 @@ const BLOGS = [
             "State Management"
         ],
         excerpt: "Dive into Angular Signals — the new reactive primitive that simplifies state management. This beginner-friendly guide covers how signals work, why they outperform traditional change detection, and practical examples to build more predictable Angular apps.",
-        url: "https://medium.com/@rexShailJs/mastering-angular-signals-a-beginners-guide-to-reactive-state-management-8c946dbf626c",
+        url: "https://medium.com/@rexShail/mastering-angular-signals-a-beginners-guide-to-reactive-state-management-8c946dbf626c",
         readTime: "8 min read",
         color: "#e65c00"
     },
@@ -321,7 +321,7 @@ const BLOGS = [
             "Leadership"
         ],
         excerpt: "Full-stack engineers are valuable, but expecting them to be experts in every layer is unrealistic. Specialists exist for a reason. This post explores the balance between depth and breadth in modern engineering teams.",
-        url: "https://medium.com/@rexShailJs/the-full-stack-paradox-jack-of-all-trades-master-of-none-94845e1064da",
+        url: "https://medium.com/@rexShail/the-full-stack-paradox-jack-of-all-trades-master-of-none-94845e1064da",
         readTime: "3 min read",
         color: "#1565c0"
     },
@@ -334,7 +334,7 @@ const BLOGS = [
             "Leadership"
         ],
         excerpt: "I will be honest there was a stretch where Angular felt like it was losing the plot. While React is winning hearts with their simplicity and Claude (Claude AI responses are in react.), Angular was still making you set up NgModules just to sneeze. It felt heavy. Ceremonial. Like framework bureaucracy.",
-        url: "https://medium.com/@rexShailJs/from-signals-to-ai-how-angular-quietly-became-cool-again-v16-to-v21-7a23733df734",
+        url: "https://medium.com/@rexShail/from-signals-to-ai-how-angular-quietly-became-cool-again-v16-to-v21-7a23733df734",
         readTime: "4 min read",
         color: "#1565c0"
     },
@@ -347,7 +347,7 @@ const BLOGS = [
             "Effects"
         ],
         excerpt: "A practical walkthrough of Angular signal effects using a todo app, showing when effects are useful, how they react to state changes, and how to keep reactive logic clear in real-world Angular code.",
-        url: "https://medium.com/@rexShailJs/mastering-angular-signal-effects-a-practical-guide-with-a-todo-app-0734038350f8?postPublishedType=initial",
+        url: "https://medium.com/@rexShail/mastering-angular-signal-effects-a-practical-guide-with-a-todo-app-0734038350f8?postPublishedType=initial",
         readTime: "5 min read",
         color: "#e65c00"
     }
@@ -516,7 +516,7 @@ function Navbar({ page, setPage, theme, toggleTheme }) {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-display text-xl font-black tracking-tight bg-gradient-to-r from-accent-purple to-accent-pink bg-clip-text text-transparent",
-                                children: "rexShailJs"
+                                children: "rexShail"
                             }, void 0, false, {
                                 fileName: "[project]/components/Navbar.jsx",
                                 lineNumber: 76,
@@ -768,20 +768,20 @@ const CONTACTS = [
     {
         icon: "💻",
         label: "GitHub",
-        href: "https://github.com/rexShailJs",
-        val: "github.com/rexShailJs"
+        href: "https://github.com/rexShail",
+        val: "github.com/rexShail"
     },
     {
         icon: "🔗",
         label: "LinkedIn",
-        href: "https://www.linkedin.com/in/rexShailJs/",
-        val: "linkedin.com/in/rexShailJs"
+        href: "https://www.linkedin.com/in/rexShail/",
+        val: "linkedin.com/in/rexShail"
     },
     {
         icon: "🐦",
         label: "Twitter",
-        href: "https://twitter.com/rexShailJs",
-        val: "@rexShailJs"
+        href: "https://twitter.com/rexShail",
+        val: "@rexShail"
     }
 ];
 const ROLES = [
@@ -2642,7 +2642,7 @@ function BlogPage({ setPage }) {
                                                     "📝 Medium: ",
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                         className: "text-foreground/90 font-medium",
-                                                        children: "@rexShailJs"
+                                                        children: "@rexShail"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/BlogPage.jsx",
                                                         lineNumber: 133,
@@ -3184,32 +3184,32 @@ const SOCIAL_LINKS = [
     {
         icon: "🔗",
         name: "LinkedIn",
-        href: "https://www.linkedin.com/in/rexShailJs/"
+        href: "https://www.linkedin.com/in/rexShail/"
     },
     {
         icon: "💻",
         name: "GitHub",
-        href: "https://github.com/rexShailJs"
+        href: "https://github.com/rexShail"
     },
     {
         icon: "✍️",
         name: "Medium",
-        href: "https://medium.com/@rexShailJs"
+        href: "https://medium.com/@rexShail"
     },
     {
         icon: "👤",
         name: "Gravatar",
-        href: "https://gravatar.com/rexShailJs"
+        href: "https://gravatar.com/rexShail"
     },
     {
         icon: "🌲",
         name: "Linktree",
-        href: "https://linktr.ee/rexShailJs"
+        href: "https://linktr.ee/rexShail"
     },
     {
         icon: "🐦",
         name: "Twitter",
-        href: "https://twitter.com/rexShailJs"
+        href: "https://twitter.com/rexShail"
     },
     {
         icon: "📧",

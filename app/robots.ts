@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = "https://rexShailJs.com";
+  const baseUrl = "https://rexShail.com";
 
   return {
     rules: {

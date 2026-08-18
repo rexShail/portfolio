@@ -74,7 +74,7 @@ export default function Navbar({ page, setPage, theme, toggleTheme }) {
         {/* Brand / Logo */}
         <div className="flex flex-col cursor-pointer" onClick={() => handleNav({ id: "home" })}>
           <span className="font-display text-xl font-black tracking-tight bg-gradient-to-r from-accent-purple to-accent-pink bg-clip-text text-transparent">
-            rexShailJs
+            rexShail
           </span>
           <span className="font-sans text-[10px] text-text-muted tracking-widest uppercase font-bold mt-0.5">
             FinTech · AI/ML · Full Stack

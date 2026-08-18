@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const siteUrl = "https://rexShailJs.com";
+const siteUrl = "https://rexShail.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   description: "Portfolio of Shailender Singh, a Senior Full Stack Engineer with 12+ years of experience building secure, scalable FinTech platforms, AI risk engines, and digital onboarding systems.",
   keywords: [
     "Shailender Singh",
-    "rexShailJs",
+    "rexShail",
     "Full Stack Engineer",
     "FinTech Developer",
     "AI Credit Risk Systems",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Shailender Singh | Senior Full Stack Engineer",
     description: "Senior Full Stack Engineer with 12+ years building secure, scalable FinTech systems.",
-    creator: "@rexShailJs",
+    creator: "@rexShail",
   },
   robots: {
     index: true,
@@ -83,9 +83,9 @@ export default function RootLayout({
       "name": "Tata Consultancy Services (embedded at CitiBank NA)",
     },
     "sameAs": [
-      "https://github.com/rexShailJs",
-      "https://www.linkedin.com/in/rexShailJs/",
-      "https://twitter.com/rexShailJs",
+      "https://github.com/rexShail",
+      "https://www.linkedin.com/in/rexShail/",
+      "https://twitter.com/rexShail",
     ],
     "knowsAbout": [
       "Software Engineering",

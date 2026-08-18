@@ -113,7 +113,7 @@ const metadata = {
         card: "summary_large_image",
         title: "Shailender Singh | Senior Full Stack Engineer",
         description: "Senior Full Stack Engineer with 12+ years building secure, scalable FinTech systems.",
-        creator: "@rexShailJs"
+        creator: "@rexShail"
     },
     robots: {
         index: true,
@@ -140,9 +140,9 @@ function RootLayout({ children }) {
             "name": "Tata Consultancy Services (embedded at CitiBank NA)"
         },
         "sameAs": [
-            "https://github.com/rexShailJs",
-            "https://www.linkedin.com/in/rexShailJs/",
-            "https://twitter.com/rexShailJs"
+            "https://github.com/rexShail",
+            "https://www.linkedin.com/in/rexShail/",
+            "https://twitter.com/rexShail"
         ],
         "knowsAbout": [
             "Software Engineering",

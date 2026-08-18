@@ -756,8 +756,8 @@ const CONTACTS = [
     {
         icon: "📞",
         label: "Phone",
-        href: "tel:+917018636880",
-        val: "+91 7018636880"
+        href: "tel:++91 956 074 6307",
+        val: "+91 +91 956 074 6307"
     },
     {
         icon: "📍",

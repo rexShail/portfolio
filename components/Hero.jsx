@@ -167,7 +167,7 @@ export default function Hero({ setPage }) {
                 <br />
                 <span className="text-text-muted">currentWork:</span> <span className="text-accent-pink">"Decisioning, automation, and reliable scale"</span>,
                 <br />
-                <span className="text-text-muted">interest:</span> <span className="text-accent-pink">"Production-grade AI with clear impact"</span>
+                <span className="text-text-muted">interest:</span> <span className="text-accent-pink">"production grade AI with clear impact"</span>
               </div>
               &#125;;
             </div>

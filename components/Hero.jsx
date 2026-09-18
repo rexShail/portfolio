@@ -3,7 +3,7 @@ import { scrollTo } from "./utils";
 
 const CONTACTS = [
   { icon: "📧", label: "Email", href: "mailto:rexShailJs@gmail.com", val: "rexShailJs@gmail.com" },
-  { icon: "📞", label: "Phone", href: "tel:++91 956 074 6307", val: "+91 +91 956 074 6307" },
+  { icon: "📞", label: "Phone", href: "tel:++91 70181 00468", val: "+91 70181 00468" },
   { icon: "📍", label: "Location", href: null, val: "Chandigarh, India" },
   { icon: "💻", label: "GitHub", href: "https://github.com/rexShail", val: "github.com/rexShail" },
   { icon: "🔗", label: "LinkedIn", href: "https://www.linkedin.com/in/rexShail/", val: "linkedin.com/in/rexShail" },

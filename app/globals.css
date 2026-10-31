@@ -114,6 +114,10 @@ nav .max-w-6xl {
   background-image: none !important;
 }
 
+.dark .bg-gradient-mesh {
+  background-image: none !important;
+}
+
 section,
 .bg-foreground\/\[0\.01\] {
   border-color: rgba(35, 53, 84, 0.65) !important;
@@ -405,4 +409,14 @@ button {
 .dark .glass-panel:hover {
   border-color: rgba(167, 139, 250, 0.3);
   box-shadow: 0 20px 40px -15px rgba(167, 139, 250, 0.15);
+}
+
+/* Keep the reference portfolio on one flat navy background. */
+.bg-gradient-mesh,
+.dark .bg-gradient-mesh {
+  background-image: none !important;
+}
+
+.min-h-screen.bg-background {
+  background-color: #0a192f !important;
 }

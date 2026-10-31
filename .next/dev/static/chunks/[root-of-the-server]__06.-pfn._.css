@@ -2426,6 +2426,10 @@ nav .max-w-6xl {
   max-width: 1000px;
 }
 
+.bg-gradient-mesh, .dark .bg-gradient-mesh {
+  background-image: none !important;
+}
+
 section, .bg-foreground\/\[0\.01\] {
   border-color: #233554a6 !important;
 }
@@ -2713,6 +2717,14 @@ button {
 .dark .glass-panel:hover {
   border-color: #a78bfa4d;
   box-shadow: 0 20px 40px -15px #a78bfa26;
+}
+
+.bg-gradient-mesh, .dark .bg-gradient-mesh {
+  background-image: none !important;
+}
+
+.min-h-screen.bg-background {
+  background-color: #0a192f !important;
 }
 
 @property --tw-translate-x {

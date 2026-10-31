@@ -2370,6 +2370,19 @@ html {
   scroll-behavior: smooth;
 }
 
+html, html.dark, body, #root {
+  background-color: #0a192f;
+}
+
+html.dark {
+  --background: #0a192f;
+  --foreground: #ccd6f6;
+  --card-bg: #112240;
+  --card-border: #233554;
+  --text-muted: #8892b0;
+  --nav-bg: #0a192feb;
+}
+
 body {
   background-color: var(--background);
   min-height: 100vh;

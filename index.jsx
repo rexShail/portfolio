@@ -2,6 +2,7 @@
 import { useEffect, useState } from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
 import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Achievements from "./components/Achievements";
@@ -78,6 +79,7 @@ export default function App() {
       ) : (
         <main className="pb-12 space-y-6">
           <Hero setPage={setPage} />
+          <About />
           <Skills />
           <Experience />
           <Achievements />

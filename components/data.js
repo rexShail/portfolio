@@ -1,5 +1,6 @@
 export const NAV = [
   { id: "home", label: "Home", icon: "🏠" },
+  { id: "about", label: "About", icon: "👋" },
   { id: "skills", label: "AI Stack", icon: "🧠" },
   { id: "experience", label: "Experience", icon: "💼" },
   { id: "achievements", label: "Impact", icon: "📈" },

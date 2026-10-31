@@ -103,6 +103,23 @@ export default function Navbar({ page, setPage, theme, toggleTheme }) {
 
         {/* Action Controls: Theme Switcher & Mobile Toggle */}
         <div className="flex items-center gap-3">
+          <div className="header-socials hidden lg:flex items-center gap-4">
+            <a href="https://github.com/rexShail" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M12 .7a11.3 11.3 0 0 0-3.57 22c.57.1.78-.24.78-.54v-2.1c-3.17.69-3.84-1.35-3.84-1.35-.52-1.32-1.27-1.67-1.27-1.67-1.04-.71.08-.69.08-.69 1.15.08 1.76 1.18 1.76 1.18 1.02 1.76 2.69 1.25 3.34.96.1-.74.4-1.25.72-1.54-2.53-.29-5.19-1.27-5.19-5.65 0-1.25.44-2.27 1.17-3.07-.12-.29-.51-1.45.11-3.03 0 0 .95-.31 3.12 1.17A10.8 10.8 0 0 1 12 6.03c.96 0 1.92.13 2.82.38 2.16-1.48 3.11-1.17 3.11-1.17.62 1.58.23 2.74.12 3.03.73.8 1.17 1.82 1.17 3.07 0 4.39-2.67 5.35-5.21 5.64.41.35.78 1.04.78 2.1v3.12c0 .3.21.65.79.54A11.3 11.3 0 0 0 12 .7Z" />
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rexShail/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M5.2 3.5A2.2 2.2 0 1 1 5.2 7.9a2.2 2.2 0 0 1 0-4.4ZM3.3 9h3.8v11.5H3.3V9Zm6.1 0h3.7v1.6h.05c.52-.98 1.78-2.01 3.66-2.01 3.92 0 4.64 2.58 4.64 5.93v5.97h-3.8v-5.29c0-1.26-.02-2.88-1.75-2.88-1.75 0-2.02 1.37-2.02 2.79v5.38H9.4V9Z" />
+              </svg>
+            </a>
+            <a href="mailto:rexShailJs@gmail.com" aria-label="Email">
+              <svg viewBox="0 0 24 24" aria-hidden="true">
+                <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2Zm0 4-8 5-8-5V6l8 5 8-5v2Z" />
+              </svg>
+            </a>
+          </div>
           
           {/* Theme Dropdown */}
           <div className="relative" ref={dropdownRef}>
@@ -185,6 +202,11 @@ export default function Navbar({ page, setPage, theme, toggleTheme }) {
               {item.label}
             </button>
           ))}
+          <div className="header-socials flex items-center gap-5 px-4 pt-3">
+            <a href="https://github.com/rexShail" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://www.linkedin.com/in/rexShail/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="mailto:rexShailJs@gmail.com">Email</a>
+          </div>
         </div>
       )}
     </nav>

@@ -1,15 +1,6 @@
 import { useEffect, useState } from "react";
 import { scrollTo } from "./utils";
 
-const CONTACTS = [
-  { icon: "📧", label: "Email", href: "mailto:rexShailJs@gmail.com", val: "rexShailJs@gmail.com" },
-  { icon: "📞", label: "Phone", href: "tel:++91 70181 00468", val: "+91 70181 00468" },
-  { icon: "📍", label: "Location", href: null, val: "Chandigarh, India" },
-  { icon: "💻", label: "GitHub", href: "https://github.com/rexShail", val: "github.com/rexShail" },
-  { icon: "🔗", label: "LinkedIn", href: "https://www.linkedin.com/in/rexShail/", val: "linkedin.com/in/rexShail" },
-  { icon: "🐦", label: "Twitter", href: "https://twitter.com/rexShail", val: "@rexShail" },
-];
-
 const ROLES = [
   "Applied ML Engineer",
   "AI Systems Builder",
@@ -129,80 +120,13 @@ export default function Hero({ setPage }) {
           </div>
         </div>
 
-        {/* Right Column: Console Mockup Panel */}
+        {/* Right Column: Reference-style introduction graphic */}
         <div className={`w-full lg:w-[440px] transition-all duration-1000 delay-200 ${
           mounted ? "opacity-100 translate-y-0" : "opacity-0 translate-y-6"
         }`}>
-          
-          {/* Console Window */}
-          <div className="rounded-2xl glass-panel bg-card-bg overflow-hidden border border-card-border shadow-xl">
-            {/* Console Header Bar */}
-            <div className="bg-foreground/5 dark:bg-white/5 px-4 py-3 border-b border-card-border flex items-center justify-between">
-              <div className="flex gap-2">
-                <span className="w-3.5 h-3.5 rounded-full bg-rose-500/80 inline-block" />
-                <span className="w-3.5 h-3.5 rounded-full bg-amber-400/80 inline-block" />
-                <span className="w-3.5 h-3.5 rounded-full bg-emerald-500/80 inline-block" />
-              </div>
-              <span className="font-mono text-xs text-text-muted">shailender.json</span>
-              <div className="w-14" />
-            </div>
-
-            {/* Console Body */}
-            <div className="p-6 font-mono text-sm leading-relaxed overflow-x-auto text-foreground/90 bg-card-bg/25">
-              <span className="text-accent-pink">const</span> <span className="text-foreground">engineer</span> = &#123;
-              <div className="pl-4">
-                <span className="text-text-muted">name:</span> <span className="text-accent-purple">"Shailender Singh"</span>,
-                <br />
-                <span className="text-text-muted">stack:</span> [
-                <div className="pl-4">
-                  <span className="text-emerald-500">"Python"</span>, <span className="text-emerald-500">"FastAPI"</span>,
-                  <br />
-                  <span className="text-emerald-500">"LLMs"</span>, <span className="text-emerald-500">"AWS"</span>,
-                  <br />
-                  <span className="text-emerald-500">"MLOps"</span>, <span className="text-emerald-500">"Observability"</span>
-                </div>
-                ],
-                <br />
-                <span className="text-text-muted">focus:</span> <span className="text-accent-purple">"Applied ML · Responsible AI · FinTech Systems"</span>,
-                <br />
-                <span className="text-text-muted">currentWork:</span> <span className="text-accent-pink">"Decisioning, automation, and reliable scale"</span>,
-                <br />
-                <span className="text-text-muted">interest:</span> <span className="text-accent-pink">"production grade AI with clear impact"</span>
-              </div>
-              &#125;;
-            </div>
-          </div>
-
-          {/* Social / Info Links Grid under console */}
-          <div className="mt-6 grid grid-cols-2 gap-3.5">
-            {CONTACTS.map((c) => (
-              c.href ? (
-                <a
-                  key={c.label}
-                  href={c.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="p-3 rounded-xl border border-card-border hover:border-accent-purple/30 bg-card-bg/20 hover:bg-accent-purple/5 flex items-center gap-3 group transition-all duration-200"
-                >
-                  <span className="text-lg group-hover:scale-110 transition-transform duration-200">{c.icon}</span>
-                  <div className="flex flex-col min-w-0">
-                    <span className="text-[10px] font-sans text-text-muted font-bold uppercase tracking-wider">{c.label}</span>
-                    <span className="text-xs font-sans text-foreground/80 truncate">{c.val}</span>
-                  </div>
-                </a>
-              ) : (
-                <div
-                  key={c.label}
-                  className="p-3 rounded-xl border border-card-border bg-card-bg/20 flex items-center gap-3"
-                >
-                  <span className="text-lg">{c.icon}</span>
-                  <div className="flex flex-col min-w-0">
-                    <span className="text-[10px] font-sans text-text-muted font-bold uppercase tracking-wider">{c.label}</span>
-                    <span className="text-xs font-sans text-foreground/80 truncate">{c.val}</span>
-                  </div>
-                </div>
-              )
-            ))}
+          <div className="hero-mark" aria-hidden="true">
+            <span className="hero-mark-ring" />
+            <span className="hero-mark-initials">SS</span>
           </div>
         </div>
 

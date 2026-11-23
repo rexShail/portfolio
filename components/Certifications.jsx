@@ -12,7 +12,7 @@ export default function Certifications() {
       className="py-16 md:py-24 border-b border-card-border bg-foreground/[0.01] dark:bg-white/[0.01] scroll-mt-20"
     >
       <div className="max-w-6xl mx-auto px-6">
-        <SectionHeader tag="� Learning" title="Certifications & Continued Study" />
+        <SectionHeader tag="🎓 Learning" title="Certifications & Continued Study" />
         
         {/* Vendor Certifications Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">

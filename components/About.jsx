@@ -5,9 +5,10 @@ import ASCII_PORTRAIT from "./asciiPortrait";
 const TECHNOLOGIES = [
   "Python",
   "TypeScript",
+  "FastAPI",
   "React.js",
   "Java",
-  "JavaScript ES6+",
+  "FICO Decision Modeler",
 ];
 
 export default function About() {
@@ -26,11 +27,11 @@ export default function About() {
         <div className="about-content">
           <div className="about-description">
             <p>
-              I am currently a <b>Lead Engineer</b> at{" "}
+              I am currently an <b>Assistant Consultant and Lead Architect</b> at{" "}
               <a href="https://www.tcs.com/" target="_blank" rel="noopener noreferrer">
                 Tata Consultancy Services
               </a>
-              , where I build AI-enabled decisioning and digital banking systems.
+              , embedded at <b>CitiBank NA</b>, where I design credit decisioning and digital account-opening platforms.
               Previously, I worked at{" "}
               <b>Fusion Indus Tecsol Pvt. Ltd.</b> and <b>Amagesoft Technologies</b>.
             </p>

@@ -18,7 +18,7 @@ export default function Footer() {
               Shailender Singh
             </p>
             <p className="font-sans text-xs text-text-muted">
-              Senior Full Stack Engineer · Chandigarh, India
+              AI Engineer · Product Engineer · Technical Architect
             </p>
           </div>
           

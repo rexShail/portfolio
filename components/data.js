@@ -14,41 +14,41 @@ export const SKILLS = [
     cat: "AI / ML Engineering",
     icon: "🧠",
     color: "#e65c00",
-    items: ["Python", "PyTorch", "scikit-learn", "XGBoost", "LLM Apps", "Prompt Design", "Model Evaluation"],
+    items: ["Python", "Generative AI", "RAG", "LLM Architecture", "Predictive ML", "Explainability", "Responsible AI"],
   },
   {
     cat: "Systems & Platform",
     icon: "⚙️",
     color: "#1a6b3c",
-    items: ["FastAPI", "Docker", "AWS", "Kafka", "Microservices", "CI/CD", "Observability"],
+    items: ["FastAPI", "Spring Boot", "Microservices", "REST APIs", "TypeScript", "Java", "Azure / AWS"],
   },
   {
     cat: "Data & Experimentation",
     icon: "📊",
     color: "#1565c0",
-    items: ["Pandas", "NumPy", "SQL", "Feature Stores", "A/B Testing", "Monitoring", "MLOps"],
+    items: ["PostgreSQL", "MongoDB", "CosmosDB", "Oracle", "MySQL", "Redis", "CI/CD"],
   },
   {
     cat: "Applied Domain",
     icon: "🏦",
     color: "#6a1b9a",
-    items: ["FinTech", "Credit Risk", "Fraud Detection", "Responsible AI", "Explainability", "Decisioning Systems"],
+    items: ["Credit Decisioning", "FICO Decision Modeler", "AML / KYC", "Fraud", "Digital Onboarding", "Oil & Gas"],
   },
 ];
 
 export const EXPERIENCE = [
   {
-    role: "Lead Engineer · Applied AI & Platform Systems",
+    role: "Assistant Consultant · Lead Architect",
     company: "Tata Consultancy Services",
-    location: "Chandigarh, India",
+    location: "Jacksonville, USA",
     period: "Nov 2017 – Present",
-    sub: "Embedded at CitiBank NA · Building AI-enabled decisioning and digital onboarding platforms",
+    sub: "Embedded at CitiBank NA · Digital Account Opening & Credit Decisioning",
     color: "#e65c00",
     points: [
-      { bold: "Applied ML in production:", rest: "Built and integrated ML-driven credit decisioning workflows with FICO and predictive models — 15% higher risk accuracy and 30% faster approval cycles." },
-      { bold: "Responsible AI foundation:", rest: "Shaped model governance, explainability, and monitoring practices for regulated banking systems so decisions are more auditable and reliable." },
-      { bold: "Modern platform engineering:", rest: "Reworked critical services around scalable APIs and event-driven architecture, improving operational resilience and reducing infrastructure cost." },
-      { bold: "Cross-functional delivery:", rest: "Partnered across product, risk, and engineering teams across the US, India, and Saudi Arabia while maintaining zero missed SLAs." },
+      { bold: "Credit decisioning:", rest: "Architected FICO Decision Modeler platforms and integrated predictive ML models, improving risk assessment accuracy by 15% and reducing approval cycle time by 30%." },
+      { bold: "Platform modernization:", rest: "Led 5+ monolith-to-MEAN/Spring Boot microservice migrations, cutting P95 latency by 25% and monthly cloud spend by approximately $40K." },
+      { bold: "Quality engineering:", rest: "Established BDD automation with 99% test coverage, eliminating 80%+ of production defects and saving approximately 120 QA hours per sprint." },
+      { bold: "Enterprise delivery:", rest: "Worked with Saudi Aramco stakeholders and coordinated cross-functional global teams across the USA, India, and Saudi Arabia." },
     ],
   },
   {
@@ -61,7 +61,7 @@ export const EXPERIENCE = [
     points: [
       { bold: "Team transition leadership:", rest: "Led the knowledge transfer for 12 engineers over 6 months while maintaining 100% delivery continuity." },
       { bold: "Product engineering:", rest: "Delivered responsive web experiences and internal tools that materially improved client workflow efficiency and revenue impact." },
-      { bold: "Broader systems thinking:", rest: "Strengthened the bridge between engineering execution and business outcomes across regional teams." },
+      { bold: "Regional delivery:", rest: "Designed sales enablement tools adopted across 4 regional markets and strengthened alignment between engineering execution and business outcomes." },
     ],
   },
   {
@@ -72,20 +72,21 @@ export const EXPERIENCE = [
     sub: null,
     color: "#1a6b3c",
     points: [
-      { bold: "Product scale:", rest: "Built client platforms serving 20K+ daily users and improving productivity through better workflows and more reliable delivery." },
-      { bold: "End-to-end implementation:", rest: "Worked across frontend, backend, and deployment to launch products quickly and iterate with users in mind." },
-      { bold: "Performance focus:", rest: "Improved response times and platform stability for multiple clients while shipping features with a strong product mindset." },
+      { bold: "Product scale:", rest: "Built 3 client-facing platforms on CodeIgniter and Zend serving 20K+ daily users and improved workflow automation efficiency by 40%." },
+      { bold: "Mobile engineering:", rest: "Developed an Ionic Android application with real-time data synchronization." },
+      { bold: "Healthcare systems:", rest: "Architected a secure, HIPAA-compliant electronic health record platform for US outpatient clinics." },
+      { bold: "Performance and CMS:", rest: "Created WordPress themes and plugins for 8+ client projects and reduced average page-load time by 35%." },
     ],
   },
 ];
 
 export const ACHIEVEMENTS = [
+  { icon: "🔎", metric: "40%", label: "Faster Policy Review", desc: "Reduced compliance review time with an internal FastAPI RAG pipeline and vector retrieval." },
   { icon: "🧠", metric: "15%", label: "Better Risk Accuracy", desc: "Improved model-driven credit decision quality in a regulated banking workflow." },
   { icon: "⚡", metric: "30%", label: "Faster Decisions", desc: "Reduced approval cycle time through smarter automation and system integration." },
   { icon: "✅", metric: "99%", label: "Test Reliability", desc: "Built high-confidence release practices across critical financial systems." },
   { icon: "💰", metric: "$40K", label: "Monthly Savings", desc: "Optimised cloud and service architecture for measurable operating leverage." },
   { icon: "🌍", metric: "0", label: "Missed SLAs", desc: "Delivered across the US, India, and Saudi Arabia with strong cross-timezone execution." },
-  { icon: "🤝", metric: "12", label: "Engineers Guided", desc: "Led knowledge transfer and delivery continuity through complex transitions." },
 ];
 
 export const CERTS = [
@@ -192,10 +193,11 @@ export const BLOGS = [
 ];
 
 export const INTERESTS = [
-  "Applied ML in Finance",
+  "Generative AI & RAG",
+  "AI Model Evaluation",
   "Responsible AI & Explainability",
-  "LLM Applications for Internal Tools",
-  "MLOps & Model Observability",
+  "Credit Risk & Decisioning",
+  "AML / KYC",
   "Distributed Systems",
   "Technical Mentorship",
 ];

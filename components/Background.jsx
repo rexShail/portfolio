@@ -60,10 +60,10 @@ export default function Background() {
               </h3>
               <div className="space-y-4">
                 {[
-                  ["12+", "Years of experience"],
+                  ["13+", "Years of experience"],
                   ["99%", "Automated test coverage"],
                   ["$40K", "Monthly cloud savings achieved"],
-                  ["3", "Continents worked across"],
+                  ["10+", "Years at delivery leadership"],
                 ].map(([value, description], i) => (
                   <div 
                     key={value} 

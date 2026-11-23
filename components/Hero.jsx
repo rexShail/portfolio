@@ -2,10 +2,10 @@ import { useEffect, useState } from "react";
 import { scrollTo } from "./utils";
 
 const ROLES = [
-  "Applied ML Engineer",
-  "AI Systems Builder",
-  "FinTech AI Practitioner",
-  "Responsible AI Thinker"
+  "AI Engineer",
+  "Product Engineer",
+  "Technical Architect",
+  "GenAI & RAG Practitioner"
 ];
 
 export default function Hero({ setPage }) {
@@ -59,7 +59,7 @@ export default function Hero({ setPage }) {
           <div className="inline-flex items-center gap-2 rounded-full border border-emerald-500/20 bg-emerald-500/5 dark:bg-emerald-500/10 px-3.5 py-1.5 mb-6 animate-pulse-soft">
             <span className="w-2 h-2 rounded-full bg-emerald-500 shadow-[0_0_8px_rgba(16,185,129,0.5)]" />
             <span className="font-display text-[10px] tracking-widest uppercase font-black text-emerald-600 dark:text-emerald-400">
-              Open to AI / ML / Platform Roles
+              13+ Years · Open to AI / Architecture Roles
             </span>
           </div>
 
@@ -79,7 +79,7 @@ export default function Hero({ setPage }) {
 
           {/* Intro Description */}
           <p className="font-sans text-base sm:text-lg text-text-muted max-w-2xl leading-relaxed mb-8">
-            I’m a hands-on engineer building AI and ML systems that work in the real world. My work sits at the intersection of production software, model-driven decisioning, and trustworthy automation in regulated industries.
+            Technical Architect and FinTech risk technology professional with 13+ years of experience building enterprise platforms, credit decisioning systems, and practical Generative AI solutions for regulated industries.
           </p>
 
           {/* Achievement Badges */}

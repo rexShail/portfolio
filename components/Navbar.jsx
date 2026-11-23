@@ -78,7 +78,7 @@ export default function Navbar({ page, setPage, theme, toggleTheme }) {
           </div>
           <div className="brand-text">
             <span className="brand-name">REXSHAIL</span>
-            <span className="brand-role">Software Engineer</span>
+            <span className="brand-role">AI & Product Engineer</span>
           </div>
         </div>
 
